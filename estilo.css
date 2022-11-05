@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
 
+
 ::-webkit-scrollbar {
     width: 20px;
 }
@@ -500,24 +501,26 @@ form {
     width: 50%;
     display: flex;
     margin-left: 25%;
-    padding: 20px;
+    padding: 10px;
     border-radius: 30px;
     margin-top: 30px;
 
 }
-.TituloContato{
-    
 
-        font-family: "Alfa Slab One", cursive;
-        text-align: center;
-        margin-bottom: 30px;
-        font-size: 30px;
-        color: rgb(36, 197, 255);
-      
-        text-shadow: rgba(0, 128, 153, 0.75) 0px 0px 0px, rgba(0, 128, 153, 0.71) 0px 5px 0px, rgba(0, 128, 153, 0.68) 0px 10px 0px, rgba(0, 128, 153, 0.64) 0px 15px 0px, rgba(0, 128, 153, 0.61) 0px 20px 0px, rgba(0, 128, 153, 0.57) 0px 25px 0px, rgba(0, 128, 153, 0.54) 0px 30px 0px, rgba(0, 128, 153, 0.5) 0px 35px 0px;
+.TituloContato {
+
+
+    font-family: "Alfa Slab One", cursive;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(36, 197, 255);
+
+    text-shadow: rgba(0, 128, 153, 0.75) 0px 0px 0px, rgba(0, 128, 153, 0.71) 0px 5px 0px, rgba(0, 128, 153, 0.68) 0px 10px 0px, rgba(0, 128, 153, 0.64) 0px 15px 0px, rgba(0, 128, 153, 0.61) 0px 20px 0px, rgba(0, 128, 153, 0.57) 0px 25px 0px, rgba(0, 128, 153, 0.54) 0px 30px 0px, rgba(0, 128, 153, 0.5) 0px 35px 0px;
 
 }
-.contato_texto{
+
+.contato_texto {
 
     text-align: center;
 
@@ -525,7 +528,7 @@ form {
 
 }
 
-.contato-título{
+.contato-título {
 
     font-size: 30px;
 
@@ -534,29 +537,38 @@ form {
     color: red;
 
 }
-.input-padrao{
+
+.input-padrao {
     width: 50%;
-   margin-bottom:10px ;
+    margin-bottom: 10px;
     height: 35px;
     text-align: center;
     border-radius: 15px;
     margin-left: 25%;
 }
 
-.nomesobrenome{
+.nomesobrenome {
 
-        text-align: center;
-} 
+    text-align: center;
+}
 
-input{
-    
+input {
+
     align-items: center;
 }
-form{
+input:hover{
+    border-color: #57a1be;
+}
+input:empty{
+    border-color: #57a1be;
+}
+form {
+
     margin-bottom: 30px;
 }
 
-form label, form legend{
+form label,
+form legend {
     text-align: center;
     display: block;
 
@@ -566,7 +578,7 @@ form label, form legend{
 
 }
 
-fieldset{
+fieldset {
 
     width: 75%;
 
@@ -576,13 +588,13 @@ fieldset{
 
 }
 
-.chk{
+.chk {
 
     margin: 20px 0;
 
 }
 
-.enviar{
+.enviar {
 
     width: 40%;
 
@@ -604,10 +616,32 @@ fieldset{
 
 }
 
-.enviar:hover{
+.enviar:hover {
 
     background: darkgoldenrod;
 
     transform: scale(1.2);
 
 }
+
+.whatsapp-link {
+    padding-left: 35%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    color: Green;
+}
+
+.whatsapp-link:active {
+    color: red;
+}
+
+
+
+.input-padrao ::placeholder {
+    color:#cbd0d5;
+    }
+   
+
+
+ 
+   
